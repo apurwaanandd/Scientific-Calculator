@@ -1,34 +1,54 @@
 
-# Scientific Calculator
+# 🔢 Scientific Calculator in C++
 
-## Overview
-This project is a fully-featured **Scientific Calculator** developed in C++. It supports both basic arithmetic operations and advanced mathematical functions, making it a versatile tool for various computational needs. The calculator is built with efficiency and user experience in mind, featuring a clean command-line interface.
+## 📘 Overview
 
-## Features
+This project is a fully-featured **Scientific Calculator** developed in **C++**, designed to handle both basic arithmetic operations and advanced mathematical functions. Built with a focus on performance, accuracy, and simplicity, it features a clean command-line interface that makes it intuitive for users to interact with the calculator.
 
-### Basic Operations
-- **Addition (+)**
-- **Subtraction (-)**
-- **Multiplication (*)**
-- **Division (/)**
+---
 
-### Advanced Operations
-- **Power (^):** Compute the power of any number.
-- **Square Root (sqrt):** Calculate the square root of a number.
-- **Trigonometric Functions:**
-  - Sine (sin)
-  - Cosine (cos)
-  - Tangent (tan)
-- **Logarithmic Functions:**
-  - Logarithm (log)
-- **Exponential (exp):** Compute the exponential value.
+## ✨ Features
 
-### User Interaction
-- The calculator prompts the user to select from a list of operations, making it easy to navigate and use.
-- Input validation is implemented to ensure smooth operation and to handle errors gracefully.
+### 🧮 Basic Operations
+- ➕ Addition (`+`)
+- ➖ Subtraction (`-`)
+- ✖️ Multiplication (`*`)
+- ➗ Division (`/`)
 
-## Technology Stack
-- **C++**: The core language used for implementing the calculator.
-- **Git**: Version control is managed with Git, ensuring robust code management and collaboration.
+### 📐 Advanced Operations
+- **Power (`^`)**: Computes the result of a number raised to a power.
+- **Square Root (`sqrt`)**: Calculates the square root of a number.
 
+### 🔁 Trigonometric Functions
+- **Sine (`sin`)**
+- **Cosine (`cos`)**
+- **Tangent (`tan`)**
 
+### 📊 Logarithmic & Exponential Functions
+- **Logarithm (`log`)**: Calculates the natural logarithm.
+- **Exponential (`exp`)**: Returns *e* raised to the given number.
+
+---
+
+## 👤 User Interaction
+
+- The calculator presents a **menu-driven interface** allowing users to choose the desired operation.
+- It supports **input validation** to handle invalid inputs and prevent runtime errors.
+- Clear and concise prompts guide users through each computation step.
+
+---
+
+## ⚙️ Technology Stack
+
+- **C++**: Core language used to build the application.
+- **Math Library (`<cmath>`)**: Used for complex mathematical functions.
+- **Git**: Version control system used to manage project revisions and collaboration.
+
+---
+
+## 🧪 How to Run
+
+1. **Clone the Repository** (if on GitHub):
+   ```bash
+   git clone https://github.com/yourusername/scientific-calculator.git
+   cd scientific-calculator
